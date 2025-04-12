@@ -568,7 +568,6 @@ const questionsData = {
     ]
 };
 
-// DOM Elements
 const screens = {
     playerSelection: document.getElementById('player-selection-screen'),
     subjectSelection: document.getElementById('subject-selection-screen'),
@@ -589,7 +588,6 @@ function initializePlayers(numPlayers) {
     gameState.currentPlayerIndex = 0;
 }
 
-// Event listeners
 document.addEventListener('DOMContentLoaded', () => {
     // Player selection
     document.querySelectorAll('.player-option').forEach(button => {
@@ -676,7 +674,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Functions
 function loadQuestions() {
     let questionPool = [];
-    // Get the right question pool based on selected subject
     if (gameState.subject === 'mixed') {
         questionPool = [
             ...questionsData.html,
@@ -853,6 +850,7 @@ function showReview() {
     const reviewContent = document.getElementById('review-content');
     reviewContent.innerHTML = '';
 
+    // Organize questions by number for better display
     gameState.answerHistory.forEach((answer, index) => {
         const div = document.createElement('div');
         div.className = 'review-item';
