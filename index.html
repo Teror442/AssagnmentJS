@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Rush</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Player selection screen -->
+        <div id="player-selection-screen" class="screen active">
+            <h1>Quiz Rush</h1>
+            <h2>Select Number of Players</h2>
+            <div class="player-options">
+                <button class="player-option" data-players="1">1 Player</button>
+                <button class="player-option" data-players="2">2 Players</button>
+                <button class="player-option" data-players="3">3 Players</button>
+                <button class="player-option" data-players="4">4 Players</button>
+            </div>
+        </div>
+
+        <!-- Subject selection screen -->
+        <div id="subject-selection-screen" class="screen">
+            <h1>Select Subject</h1>
+            <div class="subject-options">
+                <button class="subject-option" data-subject="html">HTML</button>
+                <button class="subject-option" data-subject="css">CSS</button>
+                <button class="subject-option" data-subject="js">JavaScript</button>
+                <button class="subject-option" data-subject="mixed">Mixed</button>
+            </div>
+            <div class="difficulty-options">
+                <h2>Select Difficulty</h2>
+                <button class="difficulty-option" data-difficulty="easy">Easy</button>
+                <button class="difficulty-option" data-difficulty="medium">Medium</button>
+                <button class="difficulty-option" data-difficulty="hard">Hard</button>
+            </div>
+            <div class="navigation-buttons">
+                <button id="prev-to-players" class="nav-btn">Previous</button>
+                <button id="start-game" class="nav-btn">Start Game</button>
+            </div>
+        </div>
+
+        <!-- Game screen -->
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div id="player-turn">Player 1's Turn</div>
+                <div id="timer">30</div>
+            </div>
+            <div class="question-container">
+                <h2 id="question-text"></h2>
+                <div class="answer-options">
+                    <button class="answer-option" data-option="1"></button>
+                    <button class="answer-option" data-option="2"></button>
+                    <button class="answer-option" data-option="3"></button>
+                    <button class="answer-option" data-option="4"></button>
+                </div>
+            </div>
+            <button id="submit-answer" class="submit-btn" disabled>Submit Answer</button>
+        </div>
+
+        <!-- Game end screen -->
+        <div id="game-end-screen" class="screen">
+            <h1>Game Over!</h1>
+            <div id="winners"></div>
+            <div id="scoreboard"></div>
+            <div class="end-game-buttons">
+                <button id="new-game" class="nav-btn">New Game</button>
+                <button id="review-answers" class="nav-btn">Review Answers</button>
+            </div>
+        </div>
+
+        <!-- Review screen -->
+        <div id="review-screen" class="screen">
+            <h1>Answer Review</h1>
+            <div id="review-content"></div>
+            <button id="back-to-end" class="nav-btn">Back to Results</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
