@@ -2,305 +2,245 @@ export const questionsData = {
     html: [{
             question: "What is the correct tag for the largest heading?",
             options: ["<h6>", "<head>", "<title>", "<h1>"],
-            correct: 3,
-            difficulty: "easy"
+            correct: 3
         },
         {
             question: "What does the `<a>` tag do in HTML?",
             options: ["Creates a paragraph", "Adds an image", "Creates a hyperlink", "Adds a list"],
-            correct: 2,
-            difficulty: "easy"
+            correct: 2
         },
         {
             question: "Which attribute is used to define an image source?",
             options: ["href", "link", "src", "alt"],
-            correct: 2,
-            difficulty: "easy"
+            correct: 2
         },
         {
             question: "What does the `<p>` tag do?",
             options: ["Creates a link", "Creates a paragraph", "Adds an image", "Displays a list"],
-            correct: 1,
-            difficulty: "easy"
+            correct: 1
         },
         {
             question: "Which attribute provides alternative text for an image?",
             options: ["src", "alt", "title", "href"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "Which tag is used to create a list item?",
             options: ["<li>", "<ul>", "<ol>", "<item>"],
-            correct: 0,
-            difficulty: "medium"
+            correct: 0
         },
         {
             question: "Which tag defines a table row?",
             options: ["<tr>", "<td>", "<table>", "<row>"],
-            correct: 0,
-            difficulty: "medium"
+            correct: 0
         },
         {
             question: "Which tag is used to create an unordered list?",
             options: ["<ol>", "<ul>", "<list>", "<items>"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "Which attribute is used to open a link in a new tab?",
             options: ["href", "target=\"_new\"", "target=\"_blank\"", "newtab"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "Which tag is used to embed a video in HTML5?",
             options: ["<video>", "<media>", "<vid>", "<embed>"],
-            correct: 0,
-            difficulty: "hard"
+            correct: 0
         },
         {
             question: "What is the correct structure of a basic HTML document?",
             options: ["<html><head><title><body>", "<head><html><body><title>", "<!DOCTYPE html><html><head><title></title></head><body></body></html>", "<html><title><head><body>"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "Which tag is used to group block elements in HTML?",
             options: ["<div>", "<span>", "<section>", "<group>"],
-            correct: 0,
-            difficulty: "hard"
+            correct: 0
         }
     ],
     css: [{
-            question: "Which CSS property adds space inside an element?",
-            options: ["padding", "margin", "spacing", "border"],
-            correct: 0,
-            difficulty: "easy"
-        },
-        {
             question: "Which property sets the text color?",
             options: ["color", "font-color", "text-style", "background"],
-            correct: 0,
-            difficulty: "easy"
+            correct: 0
         },
         {
             question: "How do you select an element by its ID?",
             options: [".idname", "#idname", "idname", "*idname"],
-            correct: 1,
-            difficulty: "easy"
+            correct: 1
         },
         {
             question: "Which property sets the background color?",
             options: ["fill", "background-color", "bg-color", "color-bg"],
-            correct: 1,
-            difficulty: "easy"
+            correct: 1
         },
         {
             question: "What unit is used most commonly for font sizes in CSS?",
             options: ["px", "kg", "dpi", "em"],
-            correct: 0,
-            difficulty: "easy"
+            correct: 0
         },
         {
             question: "Which CSS property adds space inside an element?",
             options: ["margin", "padding", "spacing", "border"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "Which value makes an element invisible but keeps its space?",
             options: ["display: none", "visibility: hidden", "opacity: 0", "hidden: true"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "What does the `position: relative;` property do?",
             options: ["Moves the element off the page", "Positions the element absolutely", "Keeps it in the normal flow but allows shifting", "Fixes the element on scroll"],
-            correct: 2,
-            difficulty: "medium"
+            correct: 2
         },
         {
             question: "How do you apply a style to all `<p>` tags inside a `<div>`?",
             options: ["div.p", "div > p", "div + p", "div ~ p"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "How do you create a flex container?",
             options: ["display: grid", "display: inline-block", "display: flex", "position: flex"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "Which property allows wrapping in a flex container?",
             options: ["flex-wrap", "flex-break", "wrap", "overflow-wrap"],
-            correct: 0,
-            difficulty: "hard"
+            correct: 0
         },
         {
             question: "Which CSS feature allows nesting media queries?",
             options: ["@responsive", "@media", "@nest", "@container"],
-            correct: 1,
-            difficulty: "hard"
+            correct: 1
         },
         {
             question: "How do you center an element horizontally using Flexbox?",
             options: ["align-items: center", "justify-content: center", "text-align: center", "margin: auto"],
-            correct: 1,
-            difficulty: "hard"
+            correct: 1
         }
     ],
     js: [{
             question: "What is the result of `typeof \"hello\"`?",
             options: ["string", "word", "text", "char"],
-            correct: 0,
-            difficulty: "easy"
+            correct: 0
         },
         {
             question: "Which keyword declares a variable in JavaScript?",
             options: ["let", "define", "create", "varr"],
-            correct: 0,
-            difficulty: "easy"
+            correct: 0
         },
         {
             question: "What does console.log() do?",
             options: ["Shows an alert", "Logs output to the console", "Opens a prompt", "Triggers an error"],
-            correct: 1,
-            difficulty: "easy"
-        },
-        {
-            question: "What is the result of typeof \"hello\"?",
-            options: ["string", "text", "char", "object"],
-            correct: 0,
-            difficulty: "easy"
+            correct: 1
         },
         {
             question: "What does alert(\"Hi\") do?",
             options: ["Logs to the console", "Opens a popup", "Redirects the page", "Prints to PDF"],
-            correct: 1,
-            difficulty: "easy"
+            correct: 1
         },
         {
             question: "What is the output of 5 + \"5\" in JavaScript?",
             options: ["10", "\"55\"", "undefined", "NaN"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "Which method converts a string to a number?",
             options: ["Number()", "parseInt()", "parseFloat()", "All of the above"],
-            correct: 3,
-            difficulty: "medium"
+            correct: 3
         },
         {
             question: "What is a closure in JavaScript?",
             options: ["An object method", "A function with private scope access", "A browser event", "A comment block"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "Which loop guarantees execution at least once?",
             options: ["while", "for", "do...while", "each"],
-            correct: 2,
-            difficulty: "medium"
+            correct: 2
         },
         {
             question: "What does === compare?",
             options: ["Only values", "Only types", "Values and types", "Length only"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "What is hoisting in JavaScript?",
             options: ["Delaying execution", "Removing unused variables", "Moving declarations to the top", "Lowering execution time"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "Which object is the global scope in browsers?",
             options: ["this", "global", "window", "root"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "What is the result of null == undefined?",
             options: ["true", "false", "NaN", "undefined"],
-            correct: 0,
-            difficulty: "hard"
+            correct: 0
         }
     ],
     mixed: [{
             question: "What symbol is used for strict equality in JS?",
             options: ["==", "=", "===", "!="],
-            correct: 2,
-            difficulty: "easy"
+            correct: 2
         },
         {
             question: "Which tag is used to link CSS to HTML?",
             options: ["<style>", "<script>", "<css>", "<link>"],
-            correct: 3,
-            difficulty: "easy"
+            correct: 3
         },
         {
             question: "What does the <img> tag do?",
             options: ["Adds a table", "Embeds an image", "Creates a heading", "Links a stylesheet"],
-            correct: 1,
-            difficulty: "easy"
+            correct: 1
         },
         {
             question: "Which property controls the size of text in CSS?",
             options: ["font-size", "text-style", "text-size", "font-weight"],
-            correct: 0,
-            difficulty: "easy"
+            correct: 0
         },
         {
             question: "What does the alt attribute do in an image tag?",
             options: ["Sets size", "Adds a link", "Provides alternate text", "Applies a style"],
-            correct: 2,
-            difficulty: "medium"
+            correct: 2
         },
         {
             question: "What is the result of typeof []?",
             options: ["object", "array", "list", "undefined"],
-            correct: 0,
-            difficulty: "medium"
+            correct: 0
         },
         {
             question: "Which HTML tag creates a dropdown menu?",
             options: ["<dropdown>", "<select>", "<menu>", "<input type=\"menu\">"],
-            correct: 1,
-            difficulty: "medium"
+            correct: 1
         },
         {
             question: "Which CSS property controls element stacking order?",
             options: ["position", "index", "z-index", "layer"],
-            correct: 2,
-            difficulty: "medium"
+            correct: 2
         },
         {
             question: "What is the difference between == and === in JS?",
             options: ["Both are strict", "No difference", "=== checks type and value", "== is for numbers only"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "Which HTML element is used to embed JavaScript?",
             options: ["<js>", "<javascript>", "<script>", "<code>"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "What does box-sizing: border-box; do in CSS?",
             options: ["Adds borders only", "Excludes padding from size", "Includes padding and border in total width/height", "Resets layout"],
-            correct: 2,
-            difficulty: "hard"
+            correct: 2
         },
         {
             question: "What's the output of typeof NaN in JS?",
             options: ["number", "NaN", "undefined", "object"],
-            correct: 0,
-            difficulty: "hard"
+            correct: 0
         }
     ]
 };
@@ -309,40 +249,10 @@ export const loadQuestions = (subject, difficulty, numPlayers) => {
     let questionPool = subject === 'mixed' ? [...questionsData.html, ...questionsData.css, ...questionsData.js] :
         questionsData[subject];
 
-    const easyQuestions = questionPool.filter(q => q.difficulty === 'easy').sort(() => Math.random() - 0.5);
-    const mediumQuestions = questionPool.filter(q => q.difficulty === 'medium').sort(() => Math.random() - 0.5);
-    const hardQuestions = questionPool.filter(q => q.difficulty === 'hard').sort(() => Math.random() - 0.5);
+    const questionsPerPlayer = 3;
+    const totalQuestions = questionsPerPlayer * numPlayers;
 
-    let totalQuestionsPerPlayer;
-    let questions = [];
-
-    switch (difficulty) {
-        case 'easy':
-            totalQuestionsPerPlayer = 3;
-            questions = easyQuestions.slice(0, totalQuestionsPerPlayer * numPlayers);
-            break;
-        case 'medium':
-            totalQuestionsPerPlayer = 4;
-            for (let i = 0; i < numPlayers; i++) {
-                const playerQuestions = [
-                    ...easyQuestions.slice(i * 2, i * 2 + 2),
-                    ...mediumQuestions.slice(i * 2, i * 2 + 2)
-                ];
-                questions = [...questions, ...playerQuestions];
-            }
-            break;
-        case 'hard':
-            totalQuestionsPerPlayer = 5;
-            for (let i = 0; i < numPlayers; i++) {
-                const playerQuestions = [
-                    ...easyQuestions.slice(i * 2, i * 2 + 2),
-                    ...mediumQuestions.slice(i * 2, i * 2 + 2),
-                    ...hardQuestions.slice(i, i + 1)
-                ];
-                questions = [...questions, ...playerQuestions];
-            }
-            break;
-    }
-
-    return questions.sort(() => Math.random() - 0.5);
+    return questionPool
+        .sort(() => Math.random() - 0.5)
+        .slice(0, totalQuestions);
 };
