@@ -1,5 +1,5 @@
 import { gameState, updateGameState } from './gameState.js';
-import { loadQuestions } from './questions.js';
+import { loadQuestions, questionsData } from './questions.js';
 import { showScreen, updateQuestionDisplay, updateScoreboard, showWinners } from './ui.js';
 import { Timer } from './timer.js';
 import { initializePlayers, getWinners } from './players.js';
